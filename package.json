@@ -1,7 +1,7 @@
 {
   "name": "hubot-yemeksepeti",
   "description": "A hubot script that suggests random food from online food ordering company yemeksepeti.com",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Mehmet Ali Aydın <maaydin@gmail.com>",
   "license": "MIT",
   "keywords": "hubot, yemek, yemeksepeti, yemek tavsiye, food suggestion",
@@ -12,7 +12,9 @@
   "bugs": {
     "url": "https://github.com/hubot-scripts/hubot-yemeksepeti/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "osmosis": "^1.1.4"
+  },
   "peerDependencies": {
     "hubot": "2.x"
   },
